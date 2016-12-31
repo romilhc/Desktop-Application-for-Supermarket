@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Supermarket.jnlp">
+  <information>
+    <title>Supermarket</title>
+    <vendor>Romil Chauhan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Supermarket.jar" size="52882" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.33-bin.jar" size="959987" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.8.5-pre1.jar" size="3912449" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Supermarket" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="supermarket.Supermarket"  name="Supermarket" />
+  <update check="always"/>
+</jnlp>
